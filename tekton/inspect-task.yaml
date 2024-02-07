@@ -1,0 +1,20 @@
+apiVersion: tekton.dev/v1
+kind: Task
+metadata:
+  name: docker-login
+spec:
+  workspaces:
+  - name: source
+  steps:
+    - name: login
+      image: registry.redhat.io/openshift-pipelines/pipelines-entrypoint-rhel8@sha256:6ad35fbb58603bf02eea08f385d60029a9fca9da80eda3e5c8256c28bb498791
+      workingDir: /workspace/source
+      command: ["/bin/bash", "-c"]
+      args:
+        - |-
+          echo pwd . . . current directory
+          pwd
+          echo Listing current directory
+          ls -al
+          echo Inspect PATH
+          echo $PATH

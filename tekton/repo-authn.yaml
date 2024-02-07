@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: repo-authn
+  annotations:
+    tekton.dev/docker-0: docker://cp.icr.io/cp
+type: kubernetes.io/basic-auth
+stringData:
+  username: cp
+  password: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJQk0gTWFya2V0cGxhY2UiLCJpYXQiOjE3MDUwMDE4MjksImp0aSI6ImMzODRmZTM5MDFjNzRhOTlhMTExZTdmNzQwNGVhOTE5In0.Zfwpv7ZSpsmGJESIPYtzVmGwjmDVpRgtPGqSHYE7RDY
+
