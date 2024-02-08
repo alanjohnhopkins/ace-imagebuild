@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="PDEFormActionManager">
+	</section>
+	<section name="dependenciesView">
+	</section>
+	<section name="PluginExportWizard">
+		<item key="exportType" value="2"/>
+		<item key="zipFileName0" value="/Users/alan/dev/gigs/nfum/Iseries-plugin.zip"/>
+		<item key="zipFileName1" value="/Users/alan/dev/gigs/nfum/Iseries-plugin.zip"/>
+		<item key="exportUpdate" value="true"/>
+		<item key="exportSource" value="false"/>
+		<item key="exportSourceFormat" value="Generate source bundles"/>
+		<item key="saveAsAnt" value="false"/>
+		<item key="qualifier" value="false"/>
+		<item key="qualifierName" value="202307021415"/>
+		<item key="allowBinaryCycles" value="true"/>
+		<item key="useWorkspaceCompiledClasses" value="false"/>
+		<item key="signJAR" value="false"/>
+	</section>
+</section>

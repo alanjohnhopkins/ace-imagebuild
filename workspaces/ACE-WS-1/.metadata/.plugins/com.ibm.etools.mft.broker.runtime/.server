@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IntegrationServerConnectionParameters Version="11.0.0" serverIpcSocket="/tmp/2c12db4d-b1f8-4a65-9e02-1064a191c2ce.uds" serverName="TEST_SERVER" serverWorkDir="/Users/alan/IBM/ACET12/2023/ACE-MQ-TLS/TEST_SERVER" xmlns="http://www.ibm.com/xmlns/prod/ace/11"/>

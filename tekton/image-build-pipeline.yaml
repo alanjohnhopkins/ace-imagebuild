@@ -41,8 +41,6 @@ spec:
     workspaces:
     - name: source
       workspace: shared-workspace
-    - name: dockerconfig
-      workspace: dockerconfig-ws
     runAfter:
     - fetch-repository
   - name: build-image
@@ -60,4 +58,4 @@ spec:
     - name: dockerconfig
       workspace: dockerconfig-ws
     runAfter:
-    - fetch-repository
+    - inspect

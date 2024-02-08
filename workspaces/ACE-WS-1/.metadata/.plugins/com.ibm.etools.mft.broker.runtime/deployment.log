@@ -1,0 +1,19 @@
+ACE-MQ-Policy>>>>TEST_SERVER>>SUCCESS>>1684257893597
+BIP9332I<<PolicyProject 'ACE-MQ-Policy' has been created successfully. <<1684257893597
+BIP9326I<<The source 'ACE-MQ-Policyproject.generated.bar' has been successfully deployed. <<1684257893597
+ACE-MQ-TEST>>>>TEST_SERVER>>WARNING>>1684257907809
+BIP9320E<<Message Flow 'messageflow01', 'messageflow01' encountered a failure and could not start. <<1684257907809
+BIP2684E<<A component was configured to use IBM MQ, but the required MQ libraries are not available. <<1684257907809
+BIP9333W<<Application 'ACE-MQ-TEST' has been created but contains errors which has prevented some resources from starting. <<1684257907809
+BIP1096E<<The source 'ACE-MQ-TESTproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1684257907809
+ACE-MQ-TEST>>>>TEST_SERVER>>WARNING>>1684258569319
+BIP9320E<<Message Flow 'messageflow01', 'messageflow01' encountered a failure and could not start. <<1684258569319
+BIP2684E<<A component was configured to use IBM MQ, but the required MQ libraries are not available. <<1684258569319
+BIP9333W<<Application 'ACE-MQ-TEST' has been changed but contains errors which has prevented some resources from starting. <<1684258569319
+BIP1096E<<The source 'ACE-MQ-TESTproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. <<1684258569319
+HTTPInputApplication>>>>TEST_SERVER>>SUCCESS>>1686238280341
+BIP9332I<<Application 'HTTPInputApplication' has been created successfully. <<1686238280341
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1686238280341
+HTTPInputApplication>>>>TEST_SERVER>>SUCCESS>>1705327357942
+BIP9332I<<Application 'HTTPInputApplication' has been changed successfully. <<1705327357942
+BIP9326I<<The source 'HTTPInputApplicationproject.TestMode.bar' has been successfully deployed. <<1705327357942
